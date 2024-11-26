@@ -1,7 +1,7 @@
 // backend/src/database.ts
 import { Sequelize } from 'sequelize';
 
-const sequelize = new Sequelize('vagas', 'postgres', '941298363Vi', {
+const sequelize = new Sequelize('vagas', 'postgres', 'senha123', {
   host: 'localhost',
   dialect: 'postgres',
 });
